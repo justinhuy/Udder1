@@ -29,6 +29,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IC1-mn-WSi">
+                                <rect key="frame" x="186" y="489" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="p81-gO-eHZ" kind="show" id="Efk-gE-WUQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -37,6 +45,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139" y="121"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Nqm-RJ-y7d">
+            <objects>
+                <viewController id="p81-gO-eHZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mvz-8m-EvD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="89z-wk-eW4"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DFa-vR-4Ba"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NFP-a2-eQc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="858" y="123"/>
         </scene>
     </scenes>
 </document>
